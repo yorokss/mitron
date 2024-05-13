@@ -56,7 +56,7 @@ const Footer = () => {
         </div>
         <div className="social">
           <h1>Follow US</h1>
-          <div className="handler flex h-[8vh] w-[16vw] bg-red-700 justify-between">
+          <div className="handler flex h-[8vh] w-[16vw] justify-between">
             <div className="social border-2 border-white w-[3.7vw]">
             </div>
             <div className="social border-2 border-white w-[3.7vw]"></div>
