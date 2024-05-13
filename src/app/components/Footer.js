@@ -1,6 +1,6 @@
 
 import React from 'react'
-
+import { RiFacebookFill,RiTwitterFill,RiYoutubeFill,RiInstagramFill } from "@remixicon/react";
 const Footer = () => {
   return (
     <>
@@ -57,11 +57,18 @@ const Footer = () => {
         <div className="social">
           <h1>Follow US</h1>
           <div className="handler flex h-[8vh] w-[16vw] justify-between">
-            <div className="social border-2 border-white w-[3.7vw]">
+            <div className="social w-[3.7vw] flex items-center justify-center">
+              <RiFacebookFill />
             </div>
-            <div className="social border-2 border-white w-[3.7vw]"></div>
-            <div className="social border-2 border-white w-[3.7vw]"></div>
-            <div className="social border-2 border-white w-[3.7vw]"></div>
+            <div className="social w-[3.7vw] flex items-center justify-center">
+              <RiYoutubeFill />
+            </div>
+            <div className="social w-[3.7vw] flex items-center justify-center">
+                <RiInstagramFill/>
+            </div>
+            <div className="social w-[3.7vw] flex items-center justify-center">
+                <RiTwitterFill/>
+            </div>
           </div>
         </div>
       </div>
